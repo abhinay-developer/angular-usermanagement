@@ -1,0 +1,19 @@
+.container{
+    table{
+        width: 100%;
+        th{
+            text-transform: uppercase;
+            font-weight: 500;
+            font: normal normal 16px calibri;
+            color: white;
+        }
+        td{
+            font: normal normal 14px/16px calibri;
+        }
+    }
+    ::ng-deep mat-row,  [mat-header-row]{
+            background: inherit;
+            background: #046988;
+        
+    }
+}
